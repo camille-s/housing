@@ -1,0 +1,51 @@
+/*******************************
+     User Global Variables
+*******************************/
+@primaryColor   : @purple;
+@secondaryColor : @grey;
+@red            : #dd556e;
+@orange         : #dd8055;
+@yellow         : #ddc455;
+@olive          : #b2dd55;
+@green          : #55dd80;
+@teal           : #55ddc4;
+@blue           : #55b2dd;
+@violet         : #c455dd;
+@purple         : #556edd;
+@pink           : #dd55b2;
+@brown          : #905337;
+@grey           : #9a9fb1;
+@black          : #313239;
+
+/*---  Light Colors  ---*/
+@lightPurple         : #8294e6;
+@lightGrey           : #c0c3ce;
+@lightBlack          : #444455;
+
+/*---   Neutrals  ---*/
+@fullBlack        : #111111;
+@darkGrey         : #83889c;
+@lightGrey        : #d0d2db;
+@offWhite         : #f9f9fa;
+@darkWhite        : #F0F0F0;
+@white            : #fefefe;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@lightPrimaryColor   : @lightPurple;
+@lightSecondaryColor : @lightGrey;
+
+@fontName          : 'Barlow';
+/*-------------------
+       Fonts
+--------------------*/
+
+@headerFont        : 'Barlow Semi Condensed', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Barlow', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@googleFontName    : 'Barlow';
+
+@linkColor           : #d53ea5;
+@linkHoverColor      : saturate(@linkColor, 20%);
+@linkHoverUnderline  : underline;

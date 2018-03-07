@@ -1,0 +1,995 @@
+[{
+    "indicator": "holc areas",
+    "step": 1
+}, {
+    "indicator": "holc and neighborhood",
+    "step": 2
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "New Haven",
+    "group": "White",
+    "value": 0.308
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "New Haven",
+    "group": "Black",
+    "value": 0.3295
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "New Haven",
+    "group": "Latino",
+    "value": 0.2855
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "New Haven",
+    "group": "Other",
+    "value": 0.077
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "Hamden + West Haven",
+    "group": "White",
+    "value": 0.566
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "Hamden + West Haven",
+    "group": "Black",
+    "value": 0.2051
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "Hamden + West Haven",
+    "group": "Latino",
+    "value": 0.1497
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "Hamden + West Haven",
+    "group": "Other",
+    "value": 0.0792
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "Other suburbs",
+    "group": "White",
+    "value": 0.859
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "Other suburbs",
+    "group": "Black",
+    "value": 0.0191
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "Other suburbs",
+    "group": "Latino",
+    "value": 0.0567
+}, {
+    "indicator": "race by region",
+    "step": 3,
+    "x": "Other suburbs",
+    "group": "Other",
+    "value": 0.0652
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Newhallville",
+    "group": "White",
+    "value": 0.006
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Newhallville",
+    "group": "Black",
+    "value": 0.859
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Newhallville",
+    "group": "Latino",
+    "value": 0.116
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Newhallville",
+    "group": "Other",
+    "value": 0.019
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Hill",
+    "group": "White",
+    "value": 0.119
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Hill",
+    "group": "Black",
+    "value": 0.385
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Hill",
+    "group": "Latino",
+    "value": 0.459
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Hill",
+    "group": "Other",
+    "value": 0.037
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Fair Haven",
+    "group": "White",
+    "value": 0.142
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Fair Haven",
+    "group": "Black",
+    "value": 0.161
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Fair Haven",
+    "group": "Latino",
+    "value": 0.671
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Fair Haven",
+    "group": "Other",
+    "value": 0.026
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "West River",
+    "group": "White",
+    "value": 0.143
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "West River",
+    "group": "Black",
+    "value": 0.54
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "West River",
+    "group": "Latino",
+    "value": 0.252
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "West River",
+    "group": "Other",
+    "value": 0.065
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Beaver Hills",
+    "group": "White",
+    "value": 0.146
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Beaver Hills",
+    "group": "Black",
+    "value": 0.657
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Beaver Hills",
+    "group": "Latino",
+    "value": 0.141
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Beaver Hills",
+    "group": "Other",
+    "value": 0.056
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Dixwell",
+    "group": "White",
+    "value": 0.16
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Dixwell",
+    "group": "Black",
+    "value": 0.659
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Dixwell",
+    "group": "Latino",
+    "value": 0.133
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Dixwell",
+    "group": "Other",
+    "value": 0.048
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Edgewood",
+    "group": "White",
+    "value": 0.204
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Edgewood",
+    "group": "Black",
+    "value": 0.593
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Edgewood",
+    "group": "Latino",
+    "value": 0.128
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Edgewood",
+    "group": "Other",
+    "value": 0.075
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Amity",
+    "group": "White",
+    "value": 0.219
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Amity",
+    "group": "Black",
+    "value": 0.546
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Amity",
+    "group": "Latino",
+    "value": 0.135
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Amity",
+    "group": "Other",
+    "value": 0.1
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Dwight",
+    "group": "White",
+    "value": 0.223
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Dwight",
+    "group": "Black",
+    "value": 0.392
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Dwight",
+    "group": "Latino",
+    "value": 0.276
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Dwight",
+    "group": "Other",
+    "value": 0.109
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Quinnipiac Meadows",
+    "group": "White",
+    "value": 0.259
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Quinnipiac Meadows",
+    "group": "Black",
+    "value": 0.424
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Quinnipiac Meadows",
+    "group": "Latino",
+    "value": 0.265
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Quinnipiac Meadows",
+    "group": "Other",
+    "value": 0.052
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Annex",
+    "group": "White",
+    "value": 0.287
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Annex",
+    "group": "Black",
+    "value": 0.21
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Annex",
+    "group": "Latino",
+    "value": 0.46
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Annex",
+    "group": "Other",
+    "value": 0.043
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Prospect Hill",
+    "group": "White",
+    "value": 0.33
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Prospect Hill",
+    "group": "Black",
+    "value": 0.248
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Prospect Hill",
+    "group": "Latino",
+    "value": 0.167
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Prospect Hill",
+    "group": "Other",
+    "value": 0.255
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Fair Haven Heights",
+    "group": "White",
+    "value": 0.36
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Fair Haven Heights",
+    "group": "Black",
+    "value": 0.182
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Fair Haven Heights",
+    "group": "Latino",
+    "value": 0.43
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Fair Haven Heights",
+    "group": "Other",
+    "value": 0.028
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "West Rock",
+    "group": "White",
+    "value": 0.46
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "West Rock",
+    "group": "Black",
+    "value": 0.36
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "West Rock",
+    "group": "Latino",
+    "value": 0.123
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "West Rock",
+    "group": "Other",
+    "value": 0.057
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Wooster Square",
+    "group": "White",
+    "value": 0.474
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Wooster Square",
+    "group": "Black",
+    "value": 0.23
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Wooster Square",
+    "group": "Latino",
+    "value": 0.224
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Wooster Square",
+    "group": "Other",
+    "value": 0.072
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Downtown",
+    "group": "White",
+    "value": 0.561
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Downtown",
+    "group": "Black",
+    "value": 0.111
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Downtown",
+    "group": "Latino",
+    "value": 0.111
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Downtown",
+    "group": "Other",
+    "value": 0.217
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Westville",
+    "group": "White",
+    "value": 0.569
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Westville",
+    "group": "Black",
+    "value": 0.271
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Westville",
+    "group": "Latino",
+    "value": 0.096
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "Westville",
+    "group": "Other",
+    "value": 0.064
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "East Rock",
+    "group": "White",
+    "value": 0.672
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "East Rock",
+    "group": "Black",
+    "value": 0.069
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "East Rock",
+    "group": "Latino",
+    "value": 0.108
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "East Rock",
+    "group": "Other",
+    "value": 0.151
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "East Shore",
+    "group": "White",
+    "value": 0.688
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "East Shore",
+    "group": "Black",
+    "value": 0.18
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "East Shore",
+    "group": "Latino",
+    "value": 0.078
+}, {
+    "indicator": "race by neighborhood",
+    "step": 4,
+    "x": "East Shore",
+    "group": "Other",
+    "value": 0.054
+}, {
+    "indicator": "homeownership by grade",
+    "step": 5,
+    "x": "A",
+    "group": "A",
+    "value": 0.7848
+}, {
+    "indicator": "homeownership by grade",
+    "step": 5,
+    "x": "B",
+    "group": "B",
+    "value": 0.4988
+}, {
+    "indicator": "homeownership by grade",
+    "step": 5,
+    "x": "C",
+    "group": "C",
+    "value": 0.4207
+}, {
+    "indicator": "homeownership by grade",
+    "step": 5,
+    "x": "D",
+    "group": "D",
+    "value": 0.3431
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "New Haven",
+    "group": "Single family",
+    "value": 0.2435
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "West Haven",
+    "group": "Single family",
+    "value": 0.5184
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "Hamden",
+    "group": "Single family",
+    "value": 0.6112
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "Branford",
+    "group": "Single family",
+    "value": 0.6452
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "East Haven",
+    "group": "Single family",
+    "value": 0.6776
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "Milford",
+    "group": "Single family",
+    "value": 0.7448
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "North Branford",
+    "group": "Single family",
+    "value": 0.8073
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "North Haven",
+    "group": "Single family",
+    "value": 0.8508
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "Guilford",
+    "group": "Single family",
+    "value": 0.8827
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "Orange",
+    "group": "Single family",
+    "value": 0.9015
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "Madison",
+    "group": "Single family",
+    "value": 0.9205
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "Woodbridge",
+    "group": "Single family",
+    "value": 0.9368
+}, {
+    "indicator": "unit type by town",
+    "step": 6,
+    "x": "Bethany",
+    "group": "Single family",
+    "value": 0.9489
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Downtown",
+    "group": "Single family",
+    "value": 0.0303
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Dwight",
+    "group": "Single family",
+    "value": 0.0615
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Wooster Square",
+    "group": "Single family",
+    "value": 0.0956
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "West River",
+    "group": "Single family",
+    "value": 0.113
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Fair Haven",
+    "group": "Single family",
+    "value": 0.1476
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Edgewood",
+    "group": "Single family",
+    "value": 0.1614
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "East Rock",
+    "group": "Single family",
+    "value": 0.1675
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Newhallville",
+    "group": "Single family",
+    "value": 0.1849
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Hill",
+    "group": "Single family",
+    "value": 0.1925
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Dixwell",
+    "group": "Single family",
+    "value": 0.1975
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Prospect Hill",
+    "group": "Single family",
+    "value": 0.2266
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "West Rock",
+    "group": "Single family",
+    "value": 0.2299
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Annex",
+    "group": "Single family",
+    "value": 0.2692
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Fair Haven Heights",
+    "group": "Single family",
+    "value": 0.291
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Quinnipiac Meadows",
+    "group": "Single family",
+    "value": 0.3858
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Beaver Hills",
+    "group": "Single family",
+    "value": 0.4206
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Amity",
+    "group": "Single family",
+    "value": 0.512
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "Westville",
+    "group": "Single family",
+    "value": 0.5687
+}, {
+    "indicator": "unit type by neighborhood",
+    "step": 7,
+    "x": "East Shore",
+    "group": "Single family",
+    "value": 0.7893
+}, {
+    "indicator": "homeownership by region",
+    "step": 8,
+    "x": "New Haven",
+    "group": "All",
+    "value": 0.2817
+}, {
+    "indicator": "homeownership by region",
+    "step": 8,
+    "x": "Hamden + West Haven",
+    "group": "All",
+    "value": 0.6099
+}, {
+    "indicator": "homeownership by region",
+    "step": 8,
+    "x": "Other suburbs",
+    "group": "All",
+    "value": 0.7894
+}, {
+    "indicator": "homeownership by region by race",
+    "step": 9,
+    "x": "New Haven",
+    "group": "White",
+    "value": 0.3658
+}, {
+    "indicator": "homeownership by region by race",
+    "step": 9,
+    "x": "New Haven",
+    "group": "Black",
+    "value": 0.2685
+}, {
+    "indicator": "homeownership by region by race",
+    "step": 9,
+    "x": "New Haven",
+    "group": "Latino",
+    "value": 0.1845
+}, {
+    "indicator": "homeownership by region by race",
+    "step": 9,
+    "x": "Hamden + West Haven",
+    "group": "White",
+    "value": 0.7134
+}, {
+    "indicator": "homeownership by region by race",
+    "step": 9,
+    "x": "Hamden + West Haven",
+    "group": "Black",
+    "value": 0.4529
+}, {
+    "indicator": "homeownership by region by race",
+    "step": 9,
+    "x": "Hamden + West Haven",
+    "group": "Latino",
+    "value": 0.4222
+}, {
+    "indicator": "homeownership by region by race",
+    "step": 9,
+    "x": "Other suburbs",
+    "group": "White",
+    "value": 0.8039
+}, {
+    "indicator": "homeownership by region by race",
+    "step": 9,
+    "x": "Other suburbs",
+    "group": "Black",
+    "value": 0.7004
+}, {
+    "indicator": "homeownership by region by race",
+    "step": 9,
+    "x": "Other suburbs",
+    "group": "Latino",
+    "value": 0.5767
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "A",
+    "group": "White",
+    "value": 0.8805,
+    "width": 1643
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "A",
+    "group": "Black",
+    "value": 0.0589,
+    "width": 110
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "A",
+    "group": "Latino",
+    "value": 0.0247,
+    "width": 46
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "A",
+    "group": "Other",
+    "value": 0.0359,
+    "width": 67
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "B",
+    "group": "White",
+    "value": 0.8001,
+    "width": 5116
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "B",
+    "group": "Black",
+    "value": 0.1115,
+    "width": 713
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "B",
+    "group": "Latino",
+    "value": 0.0594,
+    "width": 380
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "B",
+    "group": "Other",
+    "value": 0.0289,
+    "width": 185
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "C",
+    "group": "White",
+    "value": 0.6386,
+    "width": 10115
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "C",
+    "group": "Black",
+    "value": 0.2232,
+    "width": 3535
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "C",
+    "group": "Latino",
+    "value": 0.1083,
+    "width": 1716
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "C",
+    "group": "Other",
+    "value": 0.0299,
+    "width": 473
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "D",
+    "group": "White",
+    "value": 0.4338,
+    "width": 1783
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "D",
+    "group": "Black",
+    "value": 0.3652,
+    "width": 1501
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "D",
+    "group": "Latino",
+    "value": 0.1715,
+    "width": 705
+}, {
+    "indicator": "homeowners by race and grade",
+    "step": 10,
+    "x": "D",
+    "group": "Other",
+    "value": 0.0294,
+    "width": 121
+}, {
+    "indicator": "share in isolation 2016",
+    "step": 11,
+    "x": "2016",
+    "group": "White",
+    "value": 0.7197
+}, {
+    "indicator": "share in isolation 2016",
+    "step": 11,
+    "x": "2016",
+    "group": "Black",
+    "value": 0.0686
+}, {
+    "indicator": "share in isolation over time",
+    "step": 12,
+    "x": "1980",
+    "group": "White",
+    "value": 0.8793
+}, {
+    "indicator": "share in isolation over time",
+    "step": 12,
+    "x": "1980",
+    "group": "Black",
+    "value": 0.2707
+}, {
+    "indicator": "share in isolation over time",
+    "step": 12,
+    "x": "1990",
+    "group": "White",
+    "value": 0.8601
+}, {
+    "indicator": "share in isolation over time",
+    "step": 12,
+    "x": "1990",
+    "group": "Black",
+    "value": 0.2125
+}, {
+    "indicator": "share in isolation over time",
+    "step": 12,
+    "x": "2000",
+    "group": "White",
+    "value": 0.8077
+}, {
+    "indicator": "share in isolation over time",
+    "step": 12,
+    "x": "2000",
+    "group": "Black",
+    "value": 0.0866
+}, {
+    "indicator": "share in isolation over time",
+    "step": 12,
+    "x": "2016",
+    "group": "White",
+    "value": 0.7197
+}, {
+    "indicator": "share in isolation over time",
+    "step": 12,
+    "x": "2016",
+    "group": "Black",
+    "value": 0.0686
+}]

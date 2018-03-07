@@ -1,0 +1,12 @@
+.Chart {
+
+}
+
+
+.Chart path.tick {
+	stroke: #ccc;
+}
+
+.Chart rect {
+	opacity: 0.9;
+}
