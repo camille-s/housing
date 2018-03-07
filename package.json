@@ -1,6 +1,7 @@
 {
   "name": "housing",
   "version": "0.1.0",
+  "homepage": "https://camille-s.github.io/housing",
   "private": true,
   "dependencies": {
     "@vx/geo": "0.0.153",
@@ -14,6 +15,7 @@
     "d3-geo": "^1.9.1",
     "d3-scale": "^2.0.0",
     "dedent": "^0.7.0",
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-markdown": "^3.3.0",
@@ -27,6 +29,8 @@
     "word-wrap": "^1.2.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-semantic": "cd src/semantic && gulp build-css build-assets",
     "watch-semantic": "cd src/semantic && npm run build-semantic && gulp watch",
     "start": "npm run build-semantic && react-scripts start",
