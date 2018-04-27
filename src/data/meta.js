@@ -26,21 +26,11 @@ const meta = [
 		tickValues: [ 0, 0.25, 0.5, 0.75, 1.0 ]
     }, {
         step: 4,
-        indicator: 'race by neighborhood',
-        type: 'chart',
-        hasLegend: true,
-        direction: 'horizontal',
-        rExtent: [ 0, 1 ],
-        oPadding: 5,
-        margin: { top: 16, right: 20, bottom: 40, left: 110 },
-        tickValues: [ 0, 0.25, 0.5, 0.75, 1.0 ]
-    }, {
-        step: 5,
         indicator: 'homeownership by grade',
         scheme: 'grade',
         type: 'chart'
     }, {
-        step: 6,
+        step: 5,
         indicator: 'unit type by town',
         type: 'chart',
         scheme: 'unit',
@@ -50,31 +40,20 @@ const meta = [
         margin: { top: 16, right: 20, bottom: 40, left: 110 },
         tickValues: [ 0, 0.25, 0.5, 0.75, 1.0 ]
     }, {
-        step: 7,
-        indicator: 'unit type by neighborhood',
-        scheme: 'unit',
-        type: 'chart',
-        hasLegend: false,
-        direction: 'horizontal',
-        rExtent: [ 0, 1 ],
-        oPadding: 5,
-        margin: { top: 16, right: 20, bottom: 40, left: 110 },
-        tickValues: [ 0, 0.25, 0.5, 0.75, 1.0 ]
-    }, {
-        step: 8,
+        step: 6,
         indicator: 'homeownership by region',
         type: 'chart',
         thresh: 10,
         oPadding: 20
     }, {
-        step: 9,
+        step: 7,
         indicator: 'homeownership by region by race',
         type: 'chart',
         bartype: 'clusterbar',
         hasLegend: true,
         thresh: 10,
     }, {
-        step: 10,
+        step: 8,
         indicator: 'homeowners by race and grade',
         type: 'chart',
         hasLegend: true,
@@ -83,14 +62,14 @@ const meta = [
         oPadding: 5,
         tickValues: [ 0, 0.25, 0.5, 0.75, 1.0 ]
     }, {
-        step: 11,
+        step: 9,
         indicator: 'share in isolation 2016',
         type: 'chart',
         bartype: 'clusterbar',
         hasLegend: true,
         oPadding: 20
     }, {
-        step: 12,
+        step: 10,
         indicator: 'share in isolation over time',
         type: 'chart',
         bartype: 'clusterbar',

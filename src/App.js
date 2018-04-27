@@ -26,7 +26,8 @@ class App extends Component {
 			data: [],
 			meta: [],
 			text: [],
-			step: 1
+			step: 1,
+			introOpen: false
 		};
 	}
 
@@ -54,15 +55,22 @@ class App extends Component {
 		});
 	};
 
+	handleIntro = (e) => {
+		// e.preventDefault();
+		this.setState({
+			introOpen: !this.state.introOpen
+		});
+	};
+
 	render() {
 		return (
 			<div className="App">
 				<Grid container stackable>
 					<Grid.Row>
 						<Grid.Column width={16}>
-							<Container text>
-								<Intro />
-							</Container>
+							{/* <Container text> */}
+								<Intro handleClick={this.handleIntro} isOpen={this.state.introOpen} />
+							{/* </Container> */}
 						</Grid.Column>
 					</Grid.Row>
 

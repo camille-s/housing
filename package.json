@@ -12,18 +12,18 @@
     "d3-array": "^1.2.1",
     "d3-collection": "^1.0.4",
     "d3-format": "^1.2.2",
-    "d3-geo": "^1.9.1",
+    "d3-geo": "^1.10.0",
     "d3-scale": "^2.0.0",
     "dedent": "^0.7.0",
     "gh-pages": "^1.1.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
     "react-markdown": "^3.3.0",
     "react-scripts": "1.1.0",
     "recompose": "^0.26.0",
-    "semantic-ui-react": "^0.78.2",
-    "semiotic": "^1.7.3",
-    "simple-statistics": "^5.2.1",
+    "semantic-ui-react": "^0.78.3",
+    "semiotic": "^1.9.2",
+    "simple-statistics": "^5.3.1",
     "topojson-client": "^3.0.0",
     "underscore": "^1.8.3",
     "word-wrap": "^1.2.3"
@@ -39,6 +39,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "semantic-ui": "^2.3.0"
+    "semantic-ui": "^2.3.1"
   }
 }

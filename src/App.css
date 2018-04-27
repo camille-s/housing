@@ -3,3 +3,10 @@
 	min-height: 150%;
 	padding-bottom: 500px;
 }
+
+/* from https://github.com/Semantic-Org/Semantic-UI-CSS/issues/40 */
+/* Semantic UI modal position fix */
+/* .ui.active.dimmer.modals.transition {
+    display: flex !important;
+    display: -ms-flexbox !important;
+} */
