@@ -80,7 +80,7 @@ Another way to measure segregation is how isolated groups are from one another. 
         body: `
             ## Some good news
 
-As isolated as we are, this is actually an improvement: in 1980, nearly 90 percent of white residents and over a quarter of Black ones lived in racially-isolated tracts.
+As isolated as we are, this is actually an improvement: in 1980, nearly 90 percent of white residents and over a quarter of Black ones lived in racially-isolated neighborhoods.
 
 We have a long way to go towards integrating our area. But while our segregated landscape today looks bad, it's at least less bad than a few decades ago.
         `

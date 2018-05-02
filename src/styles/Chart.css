@@ -10,3 +10,22 @@
 .Chart rect {
 	opacity: 0.9;
 }
+
+
+
+
+
+.tooltip-content {
+  background: #000000cc;
+  border: 1px solid black;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 3px;
+  z-index: 99;
+  font-size: 0.9em;
+  /* min-width: 60px; */
+ }
+
+.tooltip-content .tooltip-title {
+  font-weight: 600;
+}

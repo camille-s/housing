@@ -38,13 +38,15 @@ const meta = [
         direction: 'horizontal',
         rExtent: [ 0, 1 ],
         margin: { top: 16, right: 20, bottom: 40, left: 110 },
-        tickValues: [ 0, 0.25, 0.5, 0.75, 1.0 ]
+        tickValues: [ 0, 0.25, 0.5, 0.75, 1.0 ],
+		hasTipTitle: false
     }, {
         step: 6,
         indicator: 'homeownership by region',
         type: 'chart',
         thresh: 10,
-        oPadding: 20
+        oPadding: 20,
+		hasTipTitle: false
     }, {
         step: 7,
         indicator: 'homeownership by region by race',

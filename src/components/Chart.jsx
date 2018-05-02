@@ -5,7 +5,8 @@ import { format } from 'd3-format';
 import { max } from 'd3-array';
 import { defaultProps } from 'recompose';
 import { LegendOrdinal } from '@vx/legend';
-
+import { AnnotationLabel } from 'react-annotation';
+import ReactTooltip from 'react-tooltip';
 // import Legend from './Legend';
 
 import '../styles/Chart.css';
@@ -31,52 +32,107 @@ const withDefaults = defaultProps({
 	hasLegend: false,
 	hasWidth: false,
 	scheme: 'race',
-	thresh: 20
+	thresh: 20,
+	hasTipTitle: true
 });
 
-const Chart = (props) => {
-	let data = props.data;
-	let orient = props.direction === 'horizontal' ? 'bottom' : 'left';
-	let axis = {
-		// orient: orient,
-		tickFormat: (d) => format(props.format)(d),
-		ticks: props.ticks,
-		tickValues: props.tickValues || null
+class Chart extends React.Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			tooltipContents: null
+		};
+	}
+
+	hover = (e) => {
+		if (_.isUndefined(e)) {
+			this.setState({
+				tooltipContents: null
+			});
+			ReactTooltip.hide();
+		} else {
+			this.setState({
+				tooltipContents: this.makeTooltip(e)
+			});
+			ReactTooltip.show();
+		}
 	};
 
-	return (
-		<div className="Chart" key="chart">
-			<ResponsiveOrdinalFrame
-				size={props.size}
-				data={data}
-				oAccessor={props.oAccessor}
-				rAccessor={props.rAccessor}
-				type={props.bartype}
-				responsiveWidth={true}
-				rExtent={ props.rExtent || [ 0, max(data, d => d.value) ] }
-				dynamicColumnWidth={props.hasWidth ? 'width' : null}
-				style={(d) => ({
-					fill: props.color(d.group)
-				})}
-				oPadding={props.oPadding}
-				projection={props.direction}
-				oLabel={(d) => <text style={{ textAnchor: props.direction === 'vertical' ? 'middle' : 'end' }}>{tspans(d, props.thresh)}</text>}
-				margin={props.margin}
-				axis={axis}
-			/>
-			<div className="Legend">
-				{ props.hasLegend ?
-					<LegendOrdinal
-						scale={props.color.domain(_.pluck(props.data, 'group'))}
-						itemDirection="row"
-						direction="row"
-						labelMargin="0 1em 0 0.2em"
-						shapeMargin="2px 0 0"
-					/> : null
-				}
+	unhover = () => {
+		this.setState({
+			tooltipContents: null
+		});
+	};
+
+
+	makeTooltip = (d) => {
+		let fmt = format(this.props.format);
+		if (this.props.hasTipTitle) {
+			return `${d.group}: ${fmt(d.value)}`;
+		} else {
+			return `${fmt(d.value)}`;
+		}
+	};
+
+	render() {
+		let data = this.props.data;
+		let isVert = this.props.direction === 'vertical';
+		let orient = isVert ? 'left' : 'bottom';
+		let isPieced = this.props.bartype === 'clusterbar';
+		let fmt = format(this.props.format);
+		let axis = {
+			// orient: orient,
+			tickFormat: (d) => fmt(d),
+			ticks: this.props.ticks,
+			tickValues: this.props.tickValues || null
+		};
+
+		return (
+			<div className="Chart" key="chart">
+
+				<div data-tip="" data-for="tooltip" onMouseOut={this.unhover}>
+					<ResponsiveOrdinalFrame
+						size={this.props.size}
+						data={data}
+						oAccessor={this.props.oAccessor}
+						rAccessor={this.props.rAccessor}
+						type={this.props.bartype}
+						responsiveWidth={true}
+						rExtent={ this.props.rExtent || [ 0, max(data, d => d.value) ] }
+						dynamicColumnWidth={this.props.hasWidth ? 'width' : null}
+						style={(d) => ({
+							fill: this.props.color(d.group)
+						})}
+						oPadding={this.props.oPadding}
+						projection={this.props.direction}
+						oLabel={(d) => <text style={{ textAnchor: this.props.direction === 'vertical' ? 'middle' : 'end' }}>{tspans(d, this.props.thresh)}</text>}
+						margin={this.props.margin}
+						axis={axis}
+						pieceHoverAnnotation={true}
+						tooltipContent={(d) => <div display="none"></div>}
+						// tooltipContent={(d) => tooltip(d, fmt)}
+						customHoverBehavior={this.hover}
+						customClickBehavior={this.hover}
+					/>
+				</div>
+				<div className="Legend">
+					{ this.props.hasLegend ?
+						<LegendOrdinal
+							scale={this.props.color.domain(_.pluck(this.props.data, 'group'))}
+							itemDirection="row"
+							direction="row"
+							labelMargin="0 1em 0 0.2em"
+							shapeMargin="2px 0 0"
+						/> : null
+					}
+				</div>
+
+				<ReactTooltip id="tooltip">{this.state.tooltipContents}</ReactTooltip>
 			</div>
-		</div>
-	);
-};
+		);
+	}
+}
+
 
 export default withDefaults(Chart);
