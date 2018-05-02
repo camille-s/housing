@@ -17,8 +17,8 @@ const Intro = ({ isOpen, handleClick }) => (
 			</Accordion.Content>
 		</Accordion> */}
 		<Accordion>
-			<Accordion.Title active={isOpen} index={0} onClick={handleClick} color="purple" size="small" as={Button}>
-				{/* <Icon name="dropdown" /> */}
+			<Accordion.Title active={isOpen} index={0} onClick={handleClick} as={Button} size="tiny">
+				<Icon name="dropdown" />
 					About this story
 				</Accordion.Title>
 			<Accordion.Content active={isOpen}>

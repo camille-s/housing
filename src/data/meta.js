@@ -59,7 +59,7 @@ const meta = [
         indicator: 'homeowners by race and grade',
         type: 'chart',
         hasLegend: true,
-        hasWidth: true,
+        // hasWidth: true,
         rExtent: [ 0, 1 ],
         oPadding: 5,
         tickValues: [ 0, 0.25, 0.5, 0.75, 1.0 ]

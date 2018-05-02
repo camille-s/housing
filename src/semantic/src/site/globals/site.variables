@@ -46,6 +46,6 @@
 @pageFont          : 'Barlow', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @googleFontName    : 'Barlow';
 
-@linkColor           : @purple;
+@linkColor           : #8E2B70;
 @linkHoverColor      : saturate(@linkColor, 20%);
 @linkHoverUnderline  : underline;
