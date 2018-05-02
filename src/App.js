@@ -65,7 +65,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<Grid container stackable padded>
+				<Grid container stackable>
 					<Grid.Row>
 						<Grid.Column width={16}>
 							{/* <Container text> */}
