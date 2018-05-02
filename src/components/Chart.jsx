@@ -5,9 +5,7 @@ import { format } from 'd3-format';
 import { max } from 'd3-array';
 import { defaultProps } from 'recompose';
 import { LegendOrdinal } from '@vx/legend';
-import { AnnotationLabel } from 'react-annotation';
 import ReactTooltip from 'react-tooltip';
-// import Legend from './Legend';
 
 import '../styles/Chart.css';
 
@@ -77,9 +75,6 @@ class Chart extends React.Component {
 
 	render() {
 		let data = this.props.data;
-		let isVert = this.props.direction === 'vertical';
-		let orient = isVert ? 'left' : 'bottom';
-		let isPieced = this.props.bartype === 'clusterbar';
 		let fmt = format(this.props.format);
 		let axis = {
 			// orient: orient,

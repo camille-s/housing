@@ -1,6 +1,8 @@
 import React from 'react';
 import { Message } from 'semantic-ui-react';
 
+import '../styles/Footer.css';
+
 const Footer = () => (
 	<div className="Footer">
 		<Message compact>

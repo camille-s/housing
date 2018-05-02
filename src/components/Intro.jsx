@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Header, Accordion, Button, Modal, Icon, Label } from 'semantic-ui-react';
+import { Header, Accordion, Button, Icon } from 'semantic-ui-react';
 import '../styles/Intro.css';
 
 import md from '../data/intro.js';
@@ -11,8 +11,8 @@ const Intro = ({ isOpen, handleClick }) => (
 		<Accordion>
 			<Accordion.Title active={isOpen} index={0} onClick={handleClick} as={Button} size="tiny">
 				<Icon name="dropdown" />
-					About this story
-				</Accordion.Title>
+				About this story
+			</Accordion.Title>
 			<Accordion.Content active={isOpen}>
 				<ReactMarkdown source={md} />
 			</Accordion.Content>

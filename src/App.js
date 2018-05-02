@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Segment, Container } from 'semantic-ui-react';
+import { Grid, Segment } from 'semantic-ui-react';
 import * as topojson from 'topojson-client';
 import dedent from 'dedent';
 
@@ -65,7 +65,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<Grid container stackable>
+				<Grid container stackable padded>
 					<Grid.Row>
 						<Grid.Column width={16}>
 							{/* <Container text> */}
@@ -97,6 +97,7 @@ class App extends Component {
 							</Segment>
 						</Grid.Column>
 					</Grid.Row>
+
 					<Grid.Row>
 						<Grid.Column>
 							<Footer />
